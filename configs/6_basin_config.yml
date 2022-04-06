@@ -167,15 +167,15 @@ clip_targets_to_zero:
 static_attributes:
  - sgr_dk_sav
  - glc_pc_s06
- - glc_pc_s07
+#  - glc_pc_s07
  - nli_ix_sav
  - glc_pc_s04
  - glc_pc_s02
- - rev_mc_usu
+#  - rev_mc_usu
  - glc_pc_s03
  - glc_pc_s01
  - pet_mm_syr
- - dor_pc_pva
+#  - dor_pc_pva
  - glc_pc_s08
  - glc_pc_s09
  - swc_pc_s09
@@ -201,10 +201,10 @@ static_attributes:
  - swc_pc_s12
  - clz_cl_smj
  - gwt_cm_sav
- - glc_pc_s17
+#  - glc_pc_s17
  - glc_pc_s18
  - hft_ix_s93
- - glc_pc_s15
+#  - glc_pc_s15
  - ire_pc_sse
  - glc_pc_s16
  - glc_pc_s13
@@ -212,10 +212,10 @@ static_attributes:
  - glc_pc_s14
  - glc_pc_s11
  - glc_pc_s12
- - glc_pc_s10
+#  - glc_pc_s10
  - kar_pc_sse
  - slp_dg_sav
- - glc_pc_s19
+#  - glc_pc_s19
  - tmp_dc_s07
  - tmp_dc_s08
  - tmp_dc_s05
@@ -247,19 +247,19 @@ static_attributes:
  - pnv_pc_s02
  - rdd_mk_sav
  - ele_mt_smn
- - pnv_pc_s03
+#  - pnv_pc_s03
  - pnv_pc_s08
  - pnv_pc_s09
  - pnv_pc_s06
- - pnv_pc_s07
+#  - pnv_pc_s07
  - wet_cl_smj
  - snw_pc_syr
  - pnv_pc_s11
- - pnv_pc_s12
- - pnv_pc_s10
+#  - pnv_pc_s12
+#  - pnv_pc_s10
  - pnv_pc_s15
  - pnv_pc_s13
- - pnv_pc_s14
+#  - pnv_pc_s14
  - cmi_ix_syr
  - pet_mm_s11
  - pet_mm_s12
@@ -268,14 +268,14 @@ static_attributes:
  - wet_pc_s08
  - wet_pc_s09
  - slt_pc_sav
- - wet_pc_s02
- - wet_pc_s03
+#  - wet_pc_s02
+#  - wet_pc_s03
  - wet_pc_s01
  - hdi_ix_sav
- - wet_pc_s06
- - wet_pc_s07
+#  - wet_pc_s06
+#  - wet_pc_s07
  - wet_pc_s04
- - wet_pc_s05
+#  - wet_pc_s05
  - fec_cl_smj
  - glc_cl_smj
  - swc_pc_syr
