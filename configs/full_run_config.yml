@@ -22,7 +22,7 @@ device: cuda:0
 # --- Validation configuration ---------------------------------------------------------------------
 
 # specify after how many epochs to perform validation
-validate_every: 3
+validate_every: 1
 
 # specify how many random basins to use for validation
 validate_n_random_basins: 1
@@ -32,6 +32,16 @@ validate_n_random_basins: 1
 # target_variable specified below. Using dicts allows for different metrics per target variable.
 metrics:
 - NSE
+- MSE
+- RMSE
+- KGE
+- Alpha-NSE
+- Pearson-r
+- Beta-NSE
+- FHV
+- FMS
+- FLV
+- Peak-Timing
 
 # --- Model configuration --------------------------------------------------------------------------
 
