@@ -170,7 +170,6 @@ static_attributes:
  - glc_pc_s07
  - nli_ix_sav
  - glc_pc_s04
- - glc_pc_s05
  - glc_pc_s02
  - rev_mc_usu
  - glc_pc_s03
