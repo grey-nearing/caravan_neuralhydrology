@@ -129,7 +129,7 @@ dynamic_inputs:
  - volumetric_soil_water_layer_3_mean
  - volumetric_soil_water_layer_4_mean
  - snow_depth_water_equivalent_min
- - surface_net_solar_radiation_min
+   # - surface_net_solar_radiation_min
  - surface_net_thermal_radiation_min
  - surface_pressure_min
  - temperature_2m_min
