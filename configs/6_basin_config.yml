@@ -176,7 +176,7 @@ static_attributes:
  - glc_pc_s01
  - pet_mm_syr
 #  - dor_pc_pva
- - glc_pc_s08
+#  - glc_pc_s08
  - glc_pc_s09
  - swc_pc_s09
  - ele_mt_smx
