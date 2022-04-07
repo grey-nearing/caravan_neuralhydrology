@@ -225,7 +225,7 @@ static_attributes:
  - glc_pc_s10
  - kar_pc_sse
  - slp_dg_sav
- - glc_pc_s19
+#  - glc_pc_s19
  - tmp_dc_s07
  - tmp_dc_s08
  - tmp_dc_s05
