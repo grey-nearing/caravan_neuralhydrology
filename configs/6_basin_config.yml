@@ -22,10 +22,10 @@ device: cuda:0
 # --- Validation configuration ---------------------------------------------------------------------
 
 # specify after how many epochs to perform validation
-validate_every: 3
+validate_every: 1
 
 # specify how many random basins to use for validation
-validate_n_random_basins: 1
+validate_n_random_basins: -1
 
 # specify which metrics to calculate during validation (see neuralhydrology.evaluation.metrics)
 # this can either be a list or a dictionary. If a dictionary is used, the inner keys must match the name of the
@@ -37,7 +37,7 @@ metrics:
 
 # base model type [lstm, ealstm, cudalstm, embcudalstm, mtslstm]
 # (has to match the if statement in modelzoo/__init__.py)
-model: cudalstm
+model: arlstm
 
 # prediction head [regression]. Define the head specific parameters below
 head: regression
@@ -71,7 +71,7 @@ learning_rate:
     40: 1e-3
 
 # Mini-batch size
-batch_size: 256
+batch_size: 32
 
 # Number of training epochs
 epochs: 3
@@ -385,3 +385,6 @@ evolving_attributes:
 
 # whether to use basin id one hot encoding as (additional) static input
 use_basin_id_encoding: False
+
+# Option to use random holdout on some of the dynamic features
+random_holdout_from_dynamic_features:
