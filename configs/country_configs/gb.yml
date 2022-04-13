@@ -1,12 +1,12 @@
 # --- Experiment configurations --------------------------------------------------------------------
 
 # experiment name, used as folder name
-experiment_name: us_camels_settings
+experiment_name: gb_camels_settings
 
 # files to specify training, validation and test basins (relative to code root or absolute path)
-train_basin_file: basin_lists/countries/caravan_us_basins.txt
-validation_basin_file: basin_lists/countries/caravan_us_basins.txt
-test_basin_file: basin_lists/countries/caravan_us_basins.txt
+train_basin_file: basin_lists/countries/caravan_gb_basins.txt
+validation_basin_file: basin_lists/countries/caravan_gb_basins.txt
+test_basin_file: basin_lists/countries/caravan_gb_basins.txt
 
 # training, validation and test time periods (format = 'dd/mm/yyyy')
 train_start_date: '01/10/1999'
