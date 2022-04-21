@@ -6,7 +6,7 @@ experiment_name: pub_4_0
 run_dir: runs/random_runs
 
 # files to specify training, validation and test basins (relative to code root or absolute path)
-train_basin_file: basin_lists/pub/train_au_0.txt
+train_basin_file: basin_lists/pub/train_4_0.txt
 validation_basin_file: basin_lists/caravan_basins.txt
 test_basin_file: basin_lists/caravan_basins.txt
 
