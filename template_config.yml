@@ -1,12 +1,12 @@
 # --- Experiment configurations --------------------------------------------------------------------
 
 # experiment name, used as folder name
-experiment_name: pub_9_0
+experiment_name: template
 
-run_dir: runs/random_runs
+run_dir: runs/dev
 
 # files to specify training, validation and test basins (relative to code root or absolute path)
-train_basin_file: basin_lists/pub/train_9_0.txt
+train_basin_file: basin_lists/caravan_basins.txt
 validation_basin_file: basin_lists/caravan_basins.txt
 test_basin_file: basin_lists/caravan_basins.txt
 

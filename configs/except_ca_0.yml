@@ -21,7 +21,7 @@ device: cuda:0
 # --- Validation configuration ---------------------------------------------------------------------
 
 # specify after how many epochs to perform validation
-validate_every: 1
+validate_every: 50
 
 # specify how many random basins to use for validation
 validate_n_random_basins: -1
@@ -110,6 +110,9 @@ log_n_figures: 0
 
 # Save model weights every n epochs
 save_weights_every: 1
+
+# Discard all data from any basins with fewer than this many samples.
+min_samples_per_basin: 365
 
 # --- Data configurations --------------------------------------------------------------------------
 
