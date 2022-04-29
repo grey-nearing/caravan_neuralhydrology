@@ -374,7 +374,7 @@ static_attributes:
 #  - snw_pc_s10
 #  - snw_pc_s11
 #  - snw_pc_s12
-#  - cmi_ix_syr
+ - cmi_ix_syr
 #  - cmi_ix_s01
 #  - cmi_ix_s02
 #  - cmi_ix_s03
