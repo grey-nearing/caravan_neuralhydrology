@@ -76,8 +76,8 @@ loss: NSE
 # specify learning rates to use starting at specific epochs (0 is the initial learning rate)
 learning_rate:
     0: 1e-2
-    5: 5e-3
-    10: 1e-3
+    2: 5e-3
+    8: 1e-3
 
 # Mini-batch size
 batch_size: 764
